@@ -3,4 +3,7 @@ dist
 yarn.lock
 chromedriver.log
 tempCodeRunnerFile.js
+package-lock.json
+debug.log
+sh.exe.stackdump
 
