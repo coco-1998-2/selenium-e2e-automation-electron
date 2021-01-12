@@ -1,5 +1,6 @@
 //https://www.electronjs.org/docs/tutorial/using-selenium-and-webdriver
 //./node_modules/.bin/chromedriver --verbose --log-path=chromedriver.log
+//./node_modules/electron-chromedriver/bin/chromedriver --verbose --log-path=chromedriver.log
 
 const webdriver = require('selenium-webdriver')
 

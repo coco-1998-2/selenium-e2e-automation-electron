@@ -25,10 +25,3 @@ $ npm install selenium-webdriver
 1. e2e-Python is using python 
 2. e2e-JS is using JavaScript 
 3. express folder is a simple test html page using express
-
-
-
-
-
-
-
