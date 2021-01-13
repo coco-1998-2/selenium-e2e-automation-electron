@@ -8,18 +8,22 @@
     <title>Hello World!</title>
     
     <script>
-      function displayDate(){
-        document.getElementById("demo").innerHTML=Date();
+      function displayDate(text){
+        document.getElementById("demo").innerHTML = Date() + ' ' + text;
+      }
+
+      function appendClickText(text){
+        document.getElementById("demo").innerHTML += text;
       }
       </script>
   </head>
   <body>
     <h1>Hello World!</h1>
-    <p id="demo">这是一个段落</p>
+    <p id="demo">This is a test paragraph.</p>
     <div id="canvas">
-      <button id="set_button1" type="button" onclick="displayDate()">显示日期</button>
+      <button id="set_button1" type="button" onclick="displayDate('button click!')">Display Date</button>
       <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-        <rect id="set_button0" width="300" height="100" style="fill:rgb(0,0,255)" onclick="displayDate()"/>
+        <rect id="set_button0" width="300" height="100" style="fill:rgb(0,0,255)" onclick="appendClickText('svg click!')"/>
      </svg> 
    </div>
 
