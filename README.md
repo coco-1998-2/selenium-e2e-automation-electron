@@ -78,7 +78,7 @@ nodemon express-helloWorld.js
 ```
 
 4. visit: http://localhost:3000,  hello world will show.
-![express-helloWorld]()
+![express-helloWorld](https://github.com/coco-1998-2/selenium-e2e-automation-electron/tree/main/res/pic/express-helloWorld.png)
 
 # webdriver-remote-chrome-baidu-demo
 brower navigate to www.baidu.com, and trigger refresh, hao123link, input "cheese" and trigger baidu search.
@@ -87,6 +87,7 @@ brower navigate to www.baidu.com, and trigger refresh, hao123link, input "cheese
 
 node "d:\Workspace\electronTest\electron-quick-start\e2e-JS\chromeDriver-electron.js"
 ```
+![express-helloWorld](https://github.com/coco-1998-2/selenium-e2e-automation-electron/tree/main/res/pic/baidu-demo-search-cheese.png)
 
 # webdriver-remote-electron-svg-click-demo
 'This is a paragraph' is showing at the beginning, button and svg rect will be clicked, text will be changed to "Wed Jan 13 2021 10:46:37 GMT+0800 (China Standard Time) button click!svg click!"
@@ -100,7 +101,8 @@ node "d:\Workspace\electronTest\electron-quick-start\e2e-JS\chromeDriver-electro
 node "d:\Workspace\electronTest\electron-quick-start\e2e-JS\webdriver-remote-electron-svg-click-demo.js"
 
 ```
-
+![express-helloWorld](https://github.com/coco-1998-2/selenium-e2e-automation-electron/tree/main/res/pic/demo-webdriver-remote-electron-svg-click.png)
 # test-webdriver-remote-chrome-baidu-demo
 1. install mocha:  install --global mocha
 2. run demo: mocha -t 20000 --harmony_async_await  "d:\Workspace\electronTest\electron-quick-start\e2e-JS\test-webdriver-remote-chrome-baidu-demo.js"
+![express-helloWorld](https://github.com/coco-1998-2/selenium-e2e-automation-electron/tree/main/res/pic/Mocha-test-demo.png)
