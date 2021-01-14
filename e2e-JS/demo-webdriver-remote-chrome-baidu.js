@@ -1,7 +1,7 @@
 /**
  *  Usage:
  * 
- *  ./node_modules/.bin/chromedriver --verbose --log-path=chromedriver.log
+ *  ./node_modules/.bin/chromedriver --verbose --log-path=chromedriver.log 
  */
 
 const { Builder, By } = require("selenium-webdriver");

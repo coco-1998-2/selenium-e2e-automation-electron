@@ -103,6 +103,6 @@ node "d:\Workspace\electronTest\electron-quick-start\e2e-JS\webdriver-remote-ele
 ```
 ![express-helloWorld](https://github.com/coco-1998-2/selenium-e2e-automation-electron/tree/main/res/pic/demo-webdriver-remote-electron-svg-click.png)
 # test-webdriver-remote-chrome-baidu-demo
-1. install mocha:  install --global mocha
+1. install mocha: npm install --global mocha
 2. run demo: mocha -t 20000 --harmony_async_await  "d:\Workspace\electronTest\electron-quick-start\e2e-JS\test-webdriver-remote-chrome-baidu-demo.js"
 ![express-helloWorld](https://github.com/coco-1998-2/selenium-e2e-automation-electron/tree/main/res/pic/Mocha-test-demo.png)

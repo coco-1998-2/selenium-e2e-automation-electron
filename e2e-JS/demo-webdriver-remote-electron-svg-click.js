@@ -29,16 +29,14 @@ opts.setChromeBinaryPath("D:\\Workspace\\electronTest\\electron-quick-start\\dis
 
         // btn
         let loginBtn = await driver.findElement(By.id('set_button1'));  
-        console.log(loginBtn.isDisplayed().then( (val) => console.log("loginBtn display:",val)));
-        await driver.wait(until.elementLocated(By.id('set_button1')), 1000);
+        //await driver.wait(until.elementLocated(By.id('set_button1')), 1000);
         //await actions.click(loginBtn).perform();
         //await actions.mouseMove(loginBtn).click().perform(); 
 
 
         // svg rect
         let rect = await driver.findElement(By.xpath('//*[name()="svg"]//*[name()="rect" and @id="set_button0"]'));  
-        console.log(rect.isDisplayed().then( (val) => console.log("rect display:",val)));
-        await driver.wait(until.elementLocated(By.xpath('//*[name()="svg"]//*[name()="rect" and @id="set_button0"]')), 1000);
+        //driver.wait(until.elementLocated(By.xpath('//*[name()="svg"]//*[name()="rect" and @id="set_button0"]')), 1000);
         //await actions.click(rect).perform();
         //await actions.mouseMove(rect).click().perform(); 
 
